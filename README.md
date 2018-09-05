@@ -1,1 +1,0 @@
-# CybernetiX-Corp.github.io
