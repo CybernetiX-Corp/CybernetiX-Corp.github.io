@@ -79,7 +79,7 @@
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                width: 1000px;  /* Or whatever */
+                width: 800px;  /* Or whatever */
                 height: 650px;  /* Or whatever */
             }
             @media only screen and (max-width: 600px) {
@@ -90,7 +90,8 @@
                 [class*="col-"] {
                 width: 100%;
                 }
-                @media only screen and (min-width: 600px) {
+            }
+            @media only screen and (min-width: 600px) {
             /* For tablets: */
             .col-s-1 {width: 8.33%;}
             .col-s-2 {width: 16.66%;}
@@ -105,7 +106,7 @@
             .col-s-11 {width: 91.66%;}
             .col-s-12 {width: 100%;}
                 }
-                @media only screen and (min-width: 768px) {
+            @media only screen and (min-width: 768px) {
             /* For desktop: */
             .col-1 {width: 8.33%;}
             .col-2 {width: 16.66%;}
@@ -200,7 +201,6 @@
         }
 
         setInterval( draw, 35 );
-
        </script>
         <div class="img-wrapper"><img src="img/LOGO.png" style="max-width:100%;height:auto;"></div>
     </body>
